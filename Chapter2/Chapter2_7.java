@@ -16,5 +16,7 @@ public class Chapter2_7 {
         int days = (minutes % yearInMinutes) / (24 * 60);
 
         System.out.print(minutes + " minutes is approximately " + years + " years and " + days + " days");
+
+        input.close();
     }
 }

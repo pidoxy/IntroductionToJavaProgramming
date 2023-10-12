@@ -28,5 +28,8 @@ public class Chapter1_13 {
         // Print the values of x and y
         System.out.println("x = " + x);
         System.out.println("y = " + y);
+            
+        scanner.close();
+
     }
 }

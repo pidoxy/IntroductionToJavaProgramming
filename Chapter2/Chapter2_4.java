@@ -10,5 +10,7 @@ public class Chapter2_4 {
         double kilograms = 0.454 * pounds;
 
         System.out.println(pounds + " pounds is " + kilograms + " kilograms");
+
+        input.close();
     }
 }

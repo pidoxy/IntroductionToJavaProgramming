@@ -14,6 +14,7 @@ public class Chapter2_2 {
         double volume = area * length;
 
         System.out.println("The area is " + area + "\n" + "The volume is " + volume);
+        input.close();
 
     }
 }

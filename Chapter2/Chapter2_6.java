@@ -18,5 +18,6 @@ public class Chapter2_6 {
 
         System.out.println("The sum of the digits is " + sumOfDigits);
 
+        input.close();
     }
 }

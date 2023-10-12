@@ -10,5 +10,7 @@ public class Chapter2_3 {
         double meters = 0.305 * feet;
 
         System.out.println(feet + " feet is " + meters + " meters");
+
+        input.close();
     }
 }

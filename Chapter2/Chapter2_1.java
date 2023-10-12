@@ -12,5 +12,7 @@ public class Chapter2_1 {
 //         convert celsius to fahrenheit
          double fahrenheit = (9 / 5.0) * celsius + 32;
          System.out.println(celsius + " Celsius is " + fahrenheit + " Fahrenheit");
+
+         input.close();
     }
 }
