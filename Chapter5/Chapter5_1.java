@@ -20,6 +20,12 @@ public class Chapter5_1{
         int negativeCount = 0;
         int total = 0;
 
+        if (number == 0){
+            System.out.println("No numbers are entered except 0");
+            input.close();
+            return;
+        }
+
 
         while (number != 0){
             total += number;
