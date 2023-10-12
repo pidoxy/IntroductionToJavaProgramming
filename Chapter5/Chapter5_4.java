@@ -13,7 +13,7 @@ public class Chapter5_4 {
     public static void main(String[] args){
         int miles = 0;
         System.out.println("Miles \t Kilograms");
-        while (miles < 10) {
+        while (miles < 11) {
             double Kilometers = 1.609 * miles;
             System.out.printf(miles + " \t %.3f \n", Kilometers);
             miles += 1;
